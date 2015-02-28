@@ -1,8 +1,22 @@
 #Date Utils
 
-A set of utilities for using dates
+A set of utilities using dates. Can be used as a node module or in the browser.
 
-#getDayString
+##Usage
+
+###Node.js
+
+
+```
+dateUtils = require('date_utils');
+```
+###Browser
+
+Global "dateUtils" is exposed.
+
+##Functions
+
+###getDayString
 
 ```
 
@@ -12,7 +26,7 @@ dateUtils.getDayString(0); //returns "Monday"
 
 ```
 
-#getMonthString
+###getMonthString
 
 ```
 
